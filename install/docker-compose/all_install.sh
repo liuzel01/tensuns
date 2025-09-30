@@ -56,7 +56,7 @@ services:
       - TenSunS
 
   flask-consul:
-    image: swr.cn-south-1.myhuaweicloud.com/starsl.cn/flask-consul:latest
+    image: flask-consul:latest
     container_name: flask-consul
     hostname: flask-consul
     restart: always
@@ -73,7 +73,7 @@ services:
       - TenSunS
 
   nginx-consul:
-    image: swr.cn-south-1.myhuaweicloud.com/starsl.cn/nginx-consul:latest
+    image: nginx-consul:latest
     container_name: nginx-consul
     hostname: nginx-consul
     restart: always

@@ -306,27 +306,34 @@ export const constantRoutes = [
     children: [
       {
         path: 'https://github.com/starsliao/TenSunS#%E7%89%B9%E5%88%AB%E9%B8%A3%E8%B0%A2',
-        meta: { title: '赞赏与鸣谢', icon: 'el-icon-cold-drink' }
+        meta: { title: '赞赏与鸣谢', icon: 'el-icon-cold-drink' },
+        hidden: true
+        
       },
       {
         path: 'https://starsl.cn',
-        meta: { title: 'StarsL.cn', icon: 'el-icon-s-custom' }
+        meta: { title: 'StarsL.cn', icon: 'el-icon-s-custom' },
+        hidden: true
       },
       {
         path: 'https://github.com/starsliao?tab=repositories',
-        meta: { title: '我的 Github', icon: 'el-icon-star-off' }
+        meta: { title: '我的 Github', icon: 'el-icon-star-off' },
+        hidden: true
       },
       {
         path: 'https://grafana.com/orgs/starsliao/dashboards',
-        meta: { title: '我的 Grafana', icon: 'el-icon-odometer' }
+        meta: { title: '我的 Grafana', icon: 'el-icon-odometer' },
+        hidden: true
       },
       {
         path: 'https://starsl.cn/static/img/thanks.png',
-        meta: { title: '我的公众号', icon: 'el-icon-chat-dot-round' }
+        meta: { title: '我的公众号', icon: 'el-icon-chat-dot-round' },
+        hidden: true
       },
       {
         path: 'https://element.eleme.cn/#/zh-CN/component/icon',
-        meta: { title: 'Element', icon: 'el-icon-eleme' }
+        meta: { title: 'Element', icon: 'el-icon-eleme' },
+        hidden: true
       }
 
     ]
